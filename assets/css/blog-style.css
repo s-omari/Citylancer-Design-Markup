@@ -1,0 +1,121 @@
+
+body {background-color: #fefdfd;}
+
+#wrap { width: 960px;
+        margin:auto;
+        min-height:100%;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: -170px;
+} 
+
+
+#blog-header {
+    width: 960px;}
+#blog-header h1{ width: 204px; height:60px ; background-image:url('../images/app/logo-lg.png'); margin:20px 0 0 0; float: left;}
+#blog-header h1 a{ width: 204px; height: 60px ; display: block; text-indent: -9999px;}
+
+
+#blog-nav ul { width: 960px; float: left; height: 77px; border-radius: 8px; margin-top: 9px;
+                  background-image: url('../images/app/menubar-bg.png'); background-repeat: repeat-x; overflow: hidden;}
+#blog-nav ul li {  float: left;  height: 77px;}
+#blog-nav ul li a {border-right: 1px solid #e1e1e8; display: block; padding: 13px 33px 13px 33px; color: #FEF7F7;
+                      font-size: 20px;}
+#blog-nav ul li:hover {
+
+}
+#blog-nav ul li a i{opacity: .8; }
+
+#blog-nav .last a {border-right: none;padding-left: 36px}
+
+#blog-nav span {padding-top: 4px; display: block;}
+
+
+#wrap .breadcrumb{
+    background:none;
+    border:none;
+    padding:0;
+    margin: 111px -3px 0 12px;
+    box-shadow:0 0 0 0;
+}
+.breadcrumb a{
+    color:#a5a5a4;
+}
+.breadcrumb a:hover,
+.breadcrumb span,
+.breadcrumb .divider{
+    text-decoration:none;
+    color:#B06D77;
+}
+
+#blog-sidebar, #blog-content {border: 1px solid #ebe8e8;border-radius: 5px; margin-top: 20px; background-color: #ffffff; float: left; }
+#blog-content {width: 705px;  padding: 20px; overflow: hidden;}
+#blog-sidebar {width: 200px; height: 200px; border-radius: 5px; margin: 20px 0 0 11px;}
+
+#blog-content h2{padding: 10px; font-size: 46px;}
+#blog-content p {font-size: 15px; line-height: 27px; overflow: hidden;}
+
+
+#category-intro {margin-bottom: 70px;}
+
+.blog-post {padding: 5px; margin: 30px 0 0 0; border-bottom: 1px solid #e1e1e8; padding-bottom: 30px;}
+.blog-post h3 {color:#547b0c; font-weight: normal; font-size: 33px; margin: 0 0 20px 0; line-height: 36px;}
+.attract-text {padding: 10px; float: left;}
+.center-img {float: none; margin: auto; display: block;}
+.stroke-img { border: 8px solid #f7f7f7; border-radius: 4px;}
+.blog-post p {padding-left: 10px;}
+.blog-post span  a{color: #4f7da3; font-size: 15px;margin: 0 0 0 10px;}
+
+.find-button i {margin: 2px;}
+
+.blog-search-bar {float: left;}
+
+.footer {margin: auto; width: 960px; clear: both;}
+
+
+
+.clearfooter {height:170px; clear:both;}
+.footer {position:relative; width: 960px; margin: 59px auto 0 auto;}
+
+.power-icon {background-image: url('../images/app/icons/power.png');
+             width: 27px; height: 28px;
+             margin: auto;display: block;}
+.chart-icon {background-image: url('../images/app/icons/chart.png');
+             width: 31px; height: 30px;
+             margin: auto;display: block;}
+.connect-icon {background-image: url('../images/app/icons/connect.png');
+             width: 29px; height: 29px;
+             margin: auto;display: block;}
+.find-icon {background-image: url('../images/app/icons/find.png');
+             width: 28px; height: 29px;
+             margin: auto;display: block;}
+.bulb-icon {background-image: url('../images/app/icons/bulb.png');
+             width: 17px; height: 29px;
+             margin: auto;display: block;}
+
+/*  LANDING PAGE STYLING   */ 
+
+
+#landing-header {
+    width: 960px;}
+#landing-header h1{ width: 204px; height:60px ; background-image:url('../images/app/logo-lg.png'); margin:20px auto 0 auto;}
+#landing-header h1 a{ width: 204px; height: 60px ; display: block; text-indent: -9999px;}
+
+.landing-heading {margin-top: 80px;}
+.subscribe-box {width: 430px;margin: auto; text-align: center; background-color: #ffffff; }
+.subscribe-box p, .forget-box p {font-size: 19px;}
+
+.subscribe-box input {margin: 3px 0 0 0;}
+.blog-search-bar {
+    color: #A7A7A7;
+
+    font-family: 'Kalinga';
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    padding-top: 5px;    
+}
+
+.find-button  {margin: 0 0 0 -3px;}
+.blog-btn-group {float:left;}
+.blog-search-box {padding:46px 0 0 644px}
